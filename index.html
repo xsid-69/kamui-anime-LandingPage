@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAMUI</title>
+    <link rel="shortcut icon" src="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+       
+         @import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Permanent+Marker&display=swap');
+         @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+         
+    </style>
+</head>
+<body>
+    <div id="loading">
+      <div id="loader"></div>
+    </div>
+    <div class="main" id="Home">
+        <div id="page1">
+            <div id="cursor"></div>
+           <video class="vd" src="video/0202(1).mp4" autoplay muted loop></video>
+           <div id="page1-content">
+            <nav class="navbar">
+                <div class="logo">KAMUI</div>
+                <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+                <ul class="nav-links">
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <h1>
+              <span>K</span><span>A</span><span>M</span><span>U</span><span>I</span>
+            </h1>
+            <p class="para">The Home of Anime Lovers!</p>
+             <button> Explore More !</button>
+           </div>
+        </div>
+        <div id="page2">
+          <div id="page2-top">
+            <h4>Watch & Stream</h4>
+            <h2>EXPLORE TRENDING</h2>
+            <H2>ANIME MOVIES & EPISODES !</h2>
+          </div>
+          <div id="page2-elements">
+            <div id="box">
+              <img class="igdbz" src="/images/dbz.jpg" >
+              <video autoplay muted loop src="/video/dbz.mp4"></video>
+            </div>
+            <div id="box">
+              <img src="/images/naruto.jpg">
+              <video autoplay muted loop src="/video/naruto.mp4"></video>
+            </div>
+            <div id="box">
+              <img src="/images/bleach.jpg" >
+              <video autoplay muted loop src="/video/bleach.mp4" onclick="unmute"></video>
+            </div>
+          </div>
+        </div>
+        <div id="page3">
+          <div id="page3-top">
+            <h1>LIST OF ANIMES</h1>
+            <div id="swiperdiv">
+              <div class="swiper-container">
+                <div class="swiper-wrapper" style="color: white">
+                  <div class="swiper-slide s s1"></div>
+                  <div class="swiper-slide s s2"></div>
+                  <div class="swiper-slide s s3"></div>
+                  <div class="swiper-slide s s4"></div>
+                  <div class="swiper-slide s s5"></div>
+                  <div class="swiper-slide s s6"></div>
+                  <div class="swiper-slide s s7"></div>
+                  <div class="swiper-slide s s8"></div>
+                  <div class="swiper-slide s s9"></div>
+                </div>
+                
+              </div>
+            
+          </div>
+        </div>
+    </div>
+    <div class="footer">
+  <div class="footer-container">
+    <div class="footer-about">
+      <h3>About Us</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolor praesentium optio nihil eveniet quisquam. Delectus vitae earum at praesentium eos pariatur similique.</p>
+    </div>
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">To-watch</a></li>
+        <li><a href="#">Planner</a></li>
+        <li><a href="#">Project</a></li>
+        <li><a href="#">Movies</a></li>
+      </ul>
+    </div>
+    <div class="footer-contact">
+      <h3>Contact</h3>
+      <p>Email: support@productivitydashboard.com</p>
+      <p>Akola, India</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 Productivity Dashboard. All rights reserved.</p>
+  </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="scripts.js"></script>
+    
+
+</body>
+</html>
