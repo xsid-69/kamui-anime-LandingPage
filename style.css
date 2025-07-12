@@ -16,7 +16,7 @@ html, body {
     z-index: 9;
     background-color: rgb(255, 255, 255);
 }
-
+.main
 /* Page 1 */
 #page1 {
     height: 100vh;
@@ -202,13 +202,13 @@ button:hover::before {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 3vw;
-    padding: 3vw 2vw;
+    /* padding: 3vw 2vw; */
     align-items: center;
     justify-items: center;
 }
 
 #page2-elements #box {
-    height: 75vh;
+    height: 90vh;
     width: 100%;
     max-width: 500px;
     background-color: rgb(19, 26, 26);
@@ -263,7 +263,7 @@ button:hover::before {
 }
 
 #swiperdiv{
-    height: 60vh;
+    height: 70vh;
     width: 100%;
     position: relative;
     background: #eeeeee00;
@@ -277,7 +277,7 @@ button:hover::before {
 .swiper-container {
     width: 100%; 
     max-width: 20vw; 
-    height: 60vh;
+    height: 70vh;
 }
 
 .swiper-slide {
